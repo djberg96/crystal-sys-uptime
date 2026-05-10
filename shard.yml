@@ -1,0 +1,8 @@
+name: crystal-sys-uptime
+version: 0.1.0
+crystal: ">= 1.19.0"
+license: Apache-2.0
+
+authors:
+  - Daniel J. Berger
+
