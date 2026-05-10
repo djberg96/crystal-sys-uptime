@@ -38,4 +38,11 @@ describe System::Uptime do
     boot_time.should be_a(Time)
     boot_time.should be < Time.local
   end
+
+  it "keeps seconds and boot time in sync" do
+    expected_boot_time = Time.local - System::Uptime.seconds.seconds
+    actual_boot_time = System::Uptime.boot_time
+
+    (actual_boot_time.to_unix - expected_boot_time.to_unix).abs.should be <= 2
+  end
 end
