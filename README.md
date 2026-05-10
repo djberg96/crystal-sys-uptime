@@ -1,4 +1,4 @@
-# crystal-sys-uptime
+# sys-uptime
 
 ## Description
 
@@ -18,7 +18,7 @@ Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  crystal-sys-uptime:
+  sys-uptime:
     github: djberg96/crystal-sys-uptime
 ```
 
@@ -31,7 +31,7 @@ shards install
 ## Synopsis
 
 ```crystal
-require "crystal-sys-uptime"
+require "sys-uptime"
 
 # Get everything
 pp System::Uptime.uptime

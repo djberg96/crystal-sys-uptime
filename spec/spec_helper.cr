@@ -1,2 +1,2 @@
 require "spec"
-require "../src/crystal-sys-uptime"
+require "../src/sys-uptime"
