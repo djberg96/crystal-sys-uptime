@@ -13,7 +13,7 @@ require "c/sys/time"
 
 module System
   module Uptime
-    VERSION = "0.1.0"
+    VERSION = "0.2.0"
     CTL_KERN = 1
     KERN_BOOTTIME = 21
 

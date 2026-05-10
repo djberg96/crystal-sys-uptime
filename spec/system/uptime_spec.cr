@@ -2,7 +2,7 @@ require "../spec_helper"
 
 describe System::Uptime do
   it "has the expected version" do
-    System::Uptime::VERSION.should eq("0.1.0")
+    System::Uptime::VERSION.should eq("0.2.0")
   end
 
   it "responds to seconds" do
