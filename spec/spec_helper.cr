@@ -1,2 +1,2 @@
 require "spec"
-require "../src/sys-uptime"
+require "../src/system-uptime"

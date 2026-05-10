@@ -1,4 +1,4 @@
-# sys-uptime
+# system-uptime
 
 ## Description
 
@@ -18,7 +18,7 @@ Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  sys-uptime:
+  system-uptime:
     github: djberg96/crystal-sys-uptime
 ```
 
@@ -31,7 +31,7 @@ shards install
 ## Synopsis
 
 ```crystal
-require "sys-uptime"
+require "system-uptime"
 
 # Get everything
 pp System::Uptime.uptime
@@ -59,6 +59,9 @@ pp System::Uptime.boot_time
 
 This shard is modeled after the Ruby `sys-uptime` library, but the Crystal
 API is intentionally smaller right now.
+
+For compatibility, `require "sys-uptime"` still works for now, but
+`require "system-uptime"` is the canonical entrypoint.
 
 The current time, user count, and load average are not included, even though
 you may be used to seeing them in the command line `uptime` tool.

@@ -1,4 +1,4 @@
-name: sys-uptime
+name: system-uptime
 version: 0.2.0
 crystal: ">= 1.19.0"
 license: MIT

@@ -1,1 +1,1 @@
-require "./system/uptime"
+require "./system-uptime"
