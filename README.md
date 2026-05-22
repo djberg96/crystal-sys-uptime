@@ -5,6 +5,7 @@
 A Crystal interface for getting system uptime information.
 
 See [CHANGES.md](CHANGES.md) for release history.
+See [MANIFEST.md](MANIFEST.md) for a project inventory.
 
 ## Supported Platforms
 
